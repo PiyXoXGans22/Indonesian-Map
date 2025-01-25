@@ -1,4 +1,4 @@
-#Indonesian Interactive SVG Map
+# Indonesian Interactive SVG Map
 
  One of the websites that I made uses HTML accompanied by several lines of CSS code to beautify the website, in which there is a map of Indonesia which can be clicked to 
  produce sound and can provide a description of the area, the map on this website uses SVG so that the map image when zoomed in is not broken and there are several animations 
