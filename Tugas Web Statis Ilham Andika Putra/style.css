@@ -1,0 +1,297 @@
+#mapsection {
+    width: 50%;
+    height: auto;
+    fill: black;
+    stroke: black;
+    stroke-width: 2px;
+
+    
+}
+
+path {
+    fill: green;
+}
+
+path:hover {
+    fill: yellow;
+    stroke: black;
+    stroke-width: 1px;
+    transition: fill 0.5s;
+    cursor: pointer;
+}
+#serawak {
+    fill: gray;
+    cursor: default;
+}
+#timor {
+    fill: gray;
+    cursor: default;
+}
+#Brunei {
+    fill: gray;
+    cursor: default;
+}
+#Sabah {
+    fill: gray;
+    cursor: default;
+}
+#Yogyakarta {
+    fill:blueviolet;
+}
+#Yogyakarta:hover {
+    fill: lightblue;
+    stroke: black;
+    stroke-width: 1px;
+    transition: fill 0.5s;
+}
+#Jakarta {
+    fill:red;
+}
+#Jakarta:hover {
+    fill: lightblue;
+    stroke: black;
+    stroke-width: 1px;
+    transition: fill 0.5s;
+}
+body {
+    background-image: url('bg.jpg');
+    background-repeat: no-repeat;
+	  background-size: cover;
+}
+
+.dropbtn {
+    background-color: #c7d7d1;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    margin-left: 1450%;
+    background: rgba(255, 255, 255, 0);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(2.8px);
+    -webkit-backdrop-filter: blur(2.8px);
+
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-left: 1350%;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: #a0a5a049;}
+
+.blurmirror {
+background: rgba(255, 255, 255, 0);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+backdrop-filter: blur(2.8px);
+-webkit-backdrop-filter: blur(2.8px);
+}
+ul#square {
+    list-style-type: square;
+}
+.link{
+    width:50%;height:auto;
+    float:left;
+}
+a {
+    color: gold;
+    text-decoration: none;
+    border-bottom: 3px solid;
+    border-image: linear-gradient(45deg, purple, orange) 1;
+    cursor: pointer;
+  }
+  body {
+    font-family: Arial;
+    margin: 0;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  img {
+    vertical-align: middle;
+  }
+  
+  /* Position the image container (needed to position the left and right arrows) */
+  .container {
+    position: relative;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* Container for image text */
+  .caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+  .column {
+    float: left;
+    width: 16.66%;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+  
+  
+p {
+  font-size: 17px;
+  align-items: center;
+}
+.box a {
+  display: inline-block;
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 3px;
+}
+.modal {
+  align-items: center;
+  display: flex;
+  justify-content: center; 
+  position: absolute;
+  top: 150%s;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transition: all 0.4s;
+  visibility: hidden;
+  opacity: 0;
+}
+.content {
+  position: absolute;
+  background: white;
+  width: 400px;
+  padding: 1em 2em;
+  border-radius: 4px;
+} 
+.modal:target {
+  visibility: visible;
+  opacity: 1;
+}
+.box-close {
+  position: absolute;
+  top: 0;
+  right: 15px;
+  color: #fe0606;
+  text-decoration: none;
+  font-size: 30px;
+}
+div.ten {
+  background-color: #00ff6e;
+}
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+area {
+  outline: 5px solid var(--red);
+}
+.popup {
+  padding: 20px;
+  background-color: rgba(100, 100, 100, 0.9);
+  color: white;
+  font-weight: 100;
+  font-size: 14px;
+  position: absolute;
+}
+
+
+.popup > .close {
+  position: absolute;
+  right: -10px;
+  top: -10px;
+  background-color: black;
+  padding: 4px 10px;
+}
+.popup:target {
+  opacity: 1;
+  transform: scale(1);
+}
